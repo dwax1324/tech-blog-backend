@@ -22,9 +22,8 @@
     "cotent": {
       "type": "richtext"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
+    "tag": {
+      "type": "string"
     }
   }
 }
