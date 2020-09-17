@@ -10,6 +10,8 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'Cluster0'),
         username: env('DATABASE_USERNAME', 'dwax1324'),
         password: env('DATABASE_PASSWORD', 'qeszc24'),
+        uri: env('DATABASE_URI'),
+        database: env('DATABASE_NAME'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', 'admin'),
