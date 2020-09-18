@@ -13,8 +13,8 @@
       "type": "string"
     },
     "board": {
-      "model": "board",
-      "via": "posts"
+      "via": "posts",
+      "model": "board"
     },
     "date": {
       "type": "datetime"
