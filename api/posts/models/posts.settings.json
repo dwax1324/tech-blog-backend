@@ -13,15 +13,15 @@
       "type": "string",
       "maxLength": 100
     },
-    "board": {
-      "model": "board",
-      "via": "posts"
-    },
     "date": {
       "type": "date"
     },
     "cotent": {
       "type": "richtext"
+    },
+    "boards": {
+      "via": "posts",
+      "collection": "board"
     }
   }
 }
