@@ -10,20 +10,18 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 100
     },
     "board": {
-      "via": "posts",
-      "model": "board"
+      "model": "board",
+      "via": "posts"
     },
     "date": {
-      "type": "datetime"
+      "type": "date"
     },
     "cotent": {
       "type": "richtext"
-    },
-    "tag": {
-      "type": "string"
     }
   }
 }
