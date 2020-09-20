@@ -8,7 +8,6 @@ module.exports = ({ env }) => ({
   },
 });
 
-
 const http = require("http");
 setInterval(function() {
     http.get("http://frozen-lake-89335.herokuapp.com");
